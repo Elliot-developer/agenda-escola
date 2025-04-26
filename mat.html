@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matematica</title>
+
+  <!-- Fonte bonita do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Agenda escolar</h1>
+    <div class="nav-container">
+      <nav>
+        <div class="dropdown">
+          <div class="dropdown-btn">Disciplinas</div>
+          <div class="dropdown-content">
+            <a href="home.html">Início</a>
+            <a href="mat.html">Matemática</a>
+            <a href="fis.html">Física</a>
+            <a href="qui.html">Química</a>
+          </div>
+        </div>
+      </nav>
+      <nav>
+        <a href="#" onclick="mostrar('atividades')">Atividades</a>
+        <a href="#" onclick="mostrar('provas')">Provas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="disciplina" id="quimica">
+      <h2>Matematica</h2>
+      <ul id="quimica-atividades" class="conteudo">
+        <li>Resolução de 20 exercícios sobre equações do 2º grau. </li>
+        <li>Criação de um mapa mental sobre funções (afim, quadrática e exponencial).</li>
+        <li>Pesquisa e apresentação sobre a história da geometria.</li>
+      </ul>
+      <ul id="quimica-provas" class="conteudo hidden">
+        <li>Prova de álgebra (expressões, produtos notáveis, fatoração).</li>
+        <li>Prova de equações e inequações.   </li>
+        <li>Prova de funções (afim e quadrática). </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Estadual do Paraná</p>
+  </footer>
+
+  <script src="/script.js"></script>
+
+</body>
+</html>
